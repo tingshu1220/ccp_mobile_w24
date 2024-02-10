@@ -1,0 +1,211 @@
+/* #skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+} */
+
+.active{
+    font-weight: bold; 
+    color: #53c3f2; 
+}
+
+/* 
+nav
+
+li {
+    width: 200px;
+    position: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #795ed1;
+    background-color: #ff94ed;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(24, 9, 77);
+
+}
+
+
+
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+    background-color: #f5f5f5;
+
+    color: #333;
+
+    background-color: rgb(225, 255, 224);
+    font-size: 16px;
+
+
+
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(24, 9, 77);
+    font-size: 3em;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    /* border: solid 3px  #795ed1; 
+}
+*/
+
+
+
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #555;
+    background-color: rgb(123, 229, 120);
+    border: solid 1.5px #ff94ed;
+
+    font-family: “helvetica”, sans-serif;
+
+}
+
+h3 {
+    color: rgb(141, 141, 23);
+    font-size: 1.5em;
+}
+
+Image {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/* <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+
+</div> */
+
+
+
+@keyframes exampleAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    /* 取消动画效果 */
+    @keyframes exampleAnimation {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+}
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: exampleAnimation 2s infinite alternate;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+ 
+#skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+/* General Styling */
+
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    font-size: 30px;
+    background-color: #333; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(24, 9, 77);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #555;
+    background-color: rgb(123, 229, 120);
+    border: solid 1.5px #ff94ed;
+    font-family: "Helvetica", sans-serif;
+}
+
+
